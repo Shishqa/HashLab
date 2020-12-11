@@ -1,0 +1,3 @@
+[submodule "02_HashTables/modules/hash-library"]
+	path = 02_HashTables/modules/hash-library
+	url = https://github.com/stbrumme/hash-library.git

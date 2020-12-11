@@ -1,0 +1,2 @@
+/usr/bin/ar qc libBenchmark.a  CMakeFiles/Benchmark.dir/Timer.cpp.o CMakeFiles/Benchmark.dir/Random.cpp.o CMakeFiles/Benchmark.dir/Benchmark.cpp.o
+/usr/bin/ranlib libBenchmark.a

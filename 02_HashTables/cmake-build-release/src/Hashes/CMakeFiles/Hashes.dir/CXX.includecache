@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/HashTables/Hashes/HashCollection.hpp
+string_view
+-
+Interface.hpp
+../include/HashTables/Hashes/Interface.hpp
+
+../include/HashTables/Interface.hpp
+cstddef
+-
+cstdint
+-
+string
+-
+type_traits
+-
+
+/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Hashes/DumbHash.cpp
+HashCollection.hpp
+/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Hashes/HashCollection.hpp
+iostream
+-
+
+/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Hashes/Murmurhash.cpp
+
