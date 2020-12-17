@@ -63,10 +63,10 @@ RM = /var/lib/snapd/snap/clion/137/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables
+CMAKE_SOURCE_DIR = /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release
+CMAKE_BINARY_DIR = /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-release
 
 # Include any dependencies generated for this target.
 include src/Benchmark/CMakeFiles/Benchmark.dir/depend.make
@@ -79,60 +79,30 @@ include src/Benchmark/CMakeFiles/Benchmark.dir/flags.make
 
 src/Benchmark/CMakeFiles/Benchmark.dir/Timer.cpp.o: src/Benchmark/CMakeFiles/Benchmark.dir/flags.make
 src/Benchmark/CMakeFiles/Benchmark.dir/Timer.cpp.o: ../src/Benchmark/Timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Benchmark/CMakeFiles/Benchmark.dir/Timer.cpp.o"
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Benchmark.dir/Timer.cpp.o -c /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Benchmark/Timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Benchmark/CMakeFiles/Benchmark.dir/Timer.cpp.o"
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Benchmark.dir/Timer.cpp.o -c /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/src/Benchmark/Timer.cpp
 
 src/Benchmark/CMakeFiles/Benchmark.dir/Timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Benchmark.dir/Timer.cpp.i"
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Benchmark/Timer.cpp > CMakeFiles/Benchmark.dir/Timer.cpp.i
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/src/Benchmark/Timer.cpp > CMakeFiles/Benchmark.dir/Timer.cpp.i
 
 src/Benchmark/CMakeFiles/Benchmark.dir/Timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Benchmark.dir/Timer.cpp.s"
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Benchmark/Timer.cpp -o CMakeFiles/Benchmark.dir/Timer.cpp.s
-
-src/Benchmark/CMakeFiles/Benchmark.dir/Random.cpp.o: src/Benchmark/CMakeFiles/Benchmark.dir/flags.make
-src/Benchmark/CMakeFiles/Benchmark.dir/Random.cpp.o: ../src/Benchmark/Random.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Benchmark/CMakeFiles/Benchmark.dir/Random.cpp.o"
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Benchmark.dir/Random.cpp.o -c /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Benchmark/Random.cpp
-
-src/Benchmark/CMakeFiles/Benchmark.dir/Random.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Benchmark.dir/Random.cpp.i"
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Benchmark/Random.cpp > CMakeFiles/Benchmark.dir/Random.cpp.i
-
-src/Benchmark/CMakeFiles/Benchmark.dir/Random.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Benchmark.dir/Random.cpp.s"
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Benchmark/Random.cpp -o CMakeFiles/Benchmark.dir/Random.cpp.s
-
-src/Benchmark/CMakeFiles/Benchmark.dir/Benchmark.cpp.o: src/Benchmark/CMakeFiles/Benchmark.dir/flags.make
-src/Benchmark/CMakeFiles/Benchmark.dir/Benchmark.cpp.o: ../src/Benchmark/Benchmark.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/Benchmark/CMakeFiles/Benchmark.dir/Benchmark.cpp.o"
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Benchmark.dir/Benchmark.cpp.o -c /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Benchmark/Benchmark.cpp
-
-src/Benchmark/CMakeFiles/Benchmark.dir/Benchmark.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Benchmark.dir/Benchmark.cpp.i"
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Benchmark/Benchmark.cpp > CMakeFiles/Benchmark.dir/Benchmark.cpp.i
-
-src/Benchmark/CMakeFiles/Benchmark.dir/Benchmark.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Benchmark.dir/Benchmark.cpp.s"
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Benchmark/Benchmark.cpp -o CMakeFiles/Benchmark.dir/Benchmark.cpp.s
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/src/Benchmark/Timer.cpp -o CMakeFiles/Benchmark.dir/Timer.cpp.s
 
 # Object files for target Benchmark
 Benchmark_OBJECTS = \
-"CMakeFiles/Benchmark.dir/Timer.cpp.o" \
-"CMakeFiles/Benchmark.dir/Random.cpp.o" \
-"CMakeFiles/Benchmark.dir/Benchmark.cpp.o"
+"CMakeFiles/Benchmark.dir/Timer.cpp.o"
 
 # External object files for target Benchmark
 Benchmark_EXTERNAL_OBJECTS =
 
 src/Benchmark/libBenchmark.a: src/Benchmark/CMakeFiles/Benchmark.dir/Timer.cpp.o
-src/Benchmark/libBenchmark.a: src/Benchmark/CMakeFiles/Benchmark.dir/Random.cpp.o
-src/Benchmark/libBenchmark.a: src/Benchmark/CMakeFiles/Benchmark.dir/Benchmark.cpp.o
 src/Benchmark/libBenchmark.a: src/Benchmark/CMakeFiles/Benchmark.dir/build.make
 src/Benchmark/libBenchmark.a: src/Benchmark/CMakeFiles/Benchmark.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libBenchmark.a"
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark && $(CMAKE_COMMAND) -P CMakeFiles/Benchmark.dir/cmake_clean_target.cmake
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Benchmark.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-release/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libBenchmark.a"
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark && $(CMAKE_COMMAND) -P CMakeFiles/Benchmark.dir/cmake_clean_target.cmake
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Benchmark.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/Benchmark/CMakeFiles/Benchmark.dir/build: src/Benchmark/libBenchmark.a
@@ -140,10 +110,10 @@ src/Benchmark/CMakeFiles/Benchmark.dir/build: src/Benchmark/libBenchmark.a
 .PHONY : src/Benchmark/CMakeFiles/Benchmark.dir/build
 
 src/Benchmark/CMakeFiles/Benchmark.dir/clean:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark && $(CMAKE_COMMAND) -P CMakeFiles/Benchmark.dir/cmake_clean.cmake
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark && $(CMAKE_COMMAND) -P CMakeFiles/Benchmark.dir/cmake_clean.cmake
 .PHONY : src/Benchmark/CMakeFiles/Benchmark.dir/clean
 
 src/Benchmark/CMakeFiles/Benchmark.dir/depend:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Benchmark /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark/CMakeFiles/Benchmark.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-release && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/src/Benchmark /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-release /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark/CMakeFiles/Benchmark.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/Benchmark/CMakeFiles/Benchmark.dir/depend
 

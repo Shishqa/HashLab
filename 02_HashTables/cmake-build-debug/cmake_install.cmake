@@ -1,4 +1,4 @@
-# Install script for directory: /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables
+# Install script for directory: /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug/src/Hashes/cmake_install.cmake")
-  include("/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug/src/Benchmark/cmake_install.cmake")
-  include("/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug/src/OpenAddressing/cmake_install.cmake")
+  include("/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug/modules/cmake_install.cmake")
+  include("/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug/src/Hashes/cmake_install.cmake")
+  include("/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug/src/Benchmark/cmake_install.cmake")
+  include("/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug/src/HashTables/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -1,4 +1,4 @@
-# Install script for directory: /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/OpenAddressing
+# Install script for directory: /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/src/OpenAddressing
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

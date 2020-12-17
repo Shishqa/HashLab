@@ -1,9 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Hashes.dir/DumbHash.cpp.o"
-  "CMakeFiles/Hashes.dir/Md5Hash.cpp.o"
-  "CMakeFiles/Hashes.dir/Murmur3Hash.cpp.o"
-  "CMakeFiles/Hashes.dir/RabinKarpHash.cpp.o"
-  "CMakeFiles/Hashes.dir/Sha256Hash.cpp.o"
+  "CMakeFiles/Hashes.dir/HashCollection.cpp.o"
   "libHashes.a"
   "libHashes.pdb"
 )
