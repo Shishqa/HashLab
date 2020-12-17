@@ -13,16 +13,15 @@ target_sources(Hashes
   PUBLIC
     ${INCROOT}/HashCollection.hpp
   PRIVATE
-    Md5Hash.cpp
-    Sha256Hash.cpp
-    DumbHash.cpp
-    RabinKarpHash.cpp
-    Murmur3Hash.cpp
+    ${INCROOT}/HashCollection.ipp
+    HashCollection.cpp
   )
 
 target_link_libraries(Hashes
   PUBLIC
     Interface
+  PRIVATE
+    HashLibrary
   )
 
 target_compile_features(Hashes

@@ -68,10 +68,10 @@ RM = /var/lib/snapd/snap/clion/137/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables
+CMAKE_SOURCE_DIR = /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug
+CMAKE_BINARY_DIR = /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug/CMakeFiles /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug/src/OpenAddressing/CMakeFiles/progress.marks
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/OpenAddressing/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug/CMakeFiles 0
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug/CMakeFiles /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug/src/OpenAddressing/CMakeFiles/progress.marks
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/OpenAddressing/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/OpenAddressing/clean
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/OpenAddressing/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,22 +117,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/OpenAddressing/preinstall
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/OpenAddressing/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/OpenAddressing/preinstall
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/OpenAddressing/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/OpenAddressing/CMakeFiles/OpenAddressing.dir/rule:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/OpenAddressing/CMakeFiles/OpenAddressing.dir/rule
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/OpenAddressing/CMakeFiles/OpenAddressing.dir/rule
 .PHONY : src/OpenAddressing/CMakeFiles/OpenAddressing.dir/rule
 
 # Convenience name for target.
@@ -142,7 +142,7 @@ OpenAddressing: src/OpenAddressing/CMakeFiles/OpenAddressing.dir/rule
 
 # fast build rule for target.
 OpenAddressing/fast:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/OpenAddressing/CMakeFiles/OpenAddressing.dir/build.make src/OpenAddressing/CMakeFiles/OpenAddressing.dir/build
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/OpenAddressing/CMakeFiles/OpenAddressing.dir/build.make src/OpenAddressing/CMakeFiles/OpenAddressing.dir/build
 .PHONY : OpenAddressing/fast
 
 # Help Target
@@ -165,6 +165,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

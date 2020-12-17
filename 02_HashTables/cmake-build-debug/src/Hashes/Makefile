@@ -68,10 +68,10 @@ RM = /var/lib/snapd/snap/clion/137/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables
+CMAKE_SOURCE_DIR = /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug
+CMAKE_BINARY_DIR = /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,14 +100,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug/CMakeFiles /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug/src/Hashes/CMakeFiles/progress.marks
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Hashes/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug/CMakeFiles 0
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug/CMakeFiles /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug/src/Hashes/CMakeFiles/progress.marks
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Hashes/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Hashes/clean
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Hashes/clean
 .PHONY : clean
 
 # The main clean target
@@ -117,22 +117,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Hashes/preinstall
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Hashes/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Hashes/preinstall
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Hashes/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/Hashes/CMakeFiles/Hashes.dir/rule:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Hashes/CMakeFiles/Hashes.dir/rule
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/Hashes/CMakeFiles/Hashes.dir/rule
 .PHONY : src/Hashes/CMakeFiles/Hashes.dir/rule
 
 # Convenience name for target.
@@ -142,143 +142,35 @@ Hashes: src/Hashes/CMakeFiles/Hashes.dir/rule
 
 # fast build rule for target.
 Hashes/fast:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/build
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/build
 .PHONY : Hashes/fast
 
-DumbHash.o: DumbHash.cpp.o
+HashCollection.o: HashCollection.cpp.o
 
-.PHONY : DumbHash.o
-
-# target to build an object file
-DumbHash.cpp.o:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/DumbHash.cpp.o
-.PHONY : DumbHash.cpp.o
-
-DumbHash.i: DumbHash.cpp.i
-
-.PHONY : DumbHash.i
-
-# target to preprocess a source file
-DumbHash.cpp.i:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/DumbHash.cpp.i
-.PHONY : DumbHash.cpp.i
-
-DumbHash.s: DumbHash.cpp.s
-
-.PHONY : DumbHash.s
-
-# target to generate assembly for a file
-DumbHash.cpp.s:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/DumbHash.cpp.s
-.PHONY : DumbHash.cpp.s
-
-Md5Hash.o: Md5Hash.cpp.o
-
-.PHONY : Md5Hash.o
+.PHONY : HashCollection.o
 
 # target to build an object file
-Md5Hash.cpp.o:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/Md5Hash.cpp.o
-.PHONY : Md5Hash.cpp.o
+HashCollection.cpp.o:
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/HashCollection.cpp.o
+.PHONY : HashCollection.cpp.o
 
-Md5Hash.i: Md5Hash.cpp.i
+HashCollection.i: HashCollection.cpp.i
 
-.PHONY : Md5Hash.i
-
-# target to preprocess a source file
-Md5Hash.cpp.i:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/Md5Hash.cpp.i
-.PHONY : Md5Hash.cpp.i
-
-Md5Hash.s: Md5Hash.cpp.s
-
-.PHONY : Md5Hash.s
-
-# target to generate assembly for a file
-Md5Hash.cpp.s:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/Md5Hash.cpp.s
-.PHONY : Md5Hash.cpp.s
-
-Murmur3Hash.o: Murmur3Hash.cpp.o
-
-.PHONY : Murmur3Hash.o
-
-# target to build an object file
-Murmur3Hash.cpp.o:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/Murmur3Hash.cpp.o
-.PHONY : Murmur3Hash.cpp.o
-
-Murmur3Hash.i: Murmur3Hash.cpp.i
-
-.PHONY : Murmur3Hash.i
+.PHONY : HashCollection.i
 
 # target to preprocess a source file
-Murmur3Hash.cpp.i:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/Murmur3Hash.cpp.i
-.PHONY : Murmur3Hash.cpp.i
+HashCollection.cpp.i:
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/HashCollection.cpp.i
+.PHONY : HashCollection.cpp.i
 
-Murmur3Hash.s: Murmur3Hash.cpp.s
+HashCollection.s: HashCollection.cpp.s
 
-.PHONY : Murmur3Hash.s
-
-# target to generate assembly for a file
-Murmur3Hash.cpp.s:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/Murmur3Hash.cpp.s
-.PHONY : Murmur3Hash.cpp.s
-
-RabinKarpHash.o: RabinKarpHash.cpp.o
-
-.PHONY : RabinKarpHash.o
-
-# target to build an object file
-RabinKarpHash.cpp.o:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/RabinKarpHash.cpp.o
-.PHONY : RabinKarpHash.cpp.o
-
-RabinKarpHash.i: RabinKarpHash.cpp.i
-
-.PHONY : RabinKarpHash.i
-
-# target to preprocess a source file
-RabinKarpHash.cpp.i:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/RabinKarpHash.cpp.i
-.PHONY : RabinKarpHash.cpp.i
-
-RabinKarpHash.s: RabinKarpHash.cpp.s
-
-.PHONY : RabinKarpHash.s
+.PHONY : HashCollection.s
 
 # target to generate assembly for a file
-RabinKarpHash.cpp.s:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/RabinKarpHash.cpp.s
-.PHONY : RabinKarpHash.cpp.s
-
-Sha256Hash.o: Sha256Hash.cpp.o
-
-.PHONY : Sha256Hash.o
-
-# target to build an object file
-Sha256Hash.cpp.o:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/Sha256Hash.cpp.o
-.PHONY : Sha256Hash.cpp.o
-
-Sha256Hash.i: Sha256Hash.cpp.i
-
-.PHONY : Sha256Hash.i
-
-# target to preprocess a source file
-Sha256Hash.cpp.i:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/Sha256Hash.cpp.i
-.PHONY : Sha256Hash.cpp.i
-
-Sha256Hash.s: Sha256Hash.cpp.s
-
-.PHONY : Sha256Hash.s
-
-# target to generate assembly for a file
-Sha256Hash.cpp.s:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/Sha256Hash.cpp.s
-.PHONY : Sha256Hash.cpp.s
+HashCollection.cpp.s:
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(MAKE) $(MAKESILENT) -f src/Hashes/CMakeFiles/Hashes.dir/build.make src/Hashes/CMakeFiles/Hashes.dir/HashCollection.cpp.s
+.PHONY : HashCollection.cpp.s
 
 # Help Target
 help:
@@ -289,21 +181,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Hashes"
-	@echo "... DumbHash.o"
-	@echo "... DumbHash.i"
-	@echo "... DumbHash.s"
-	@echo "... Md5Hash.o"
-	@echo "... Md5Hash.i"
-	@echo "... Md5Hash.s"
-	@echo "... Murmur3Hash.o"
-	@echo "... Murmur3Hash.i"
-	@echo "... Murmur3Hash.s"
-	@echo "... RabinKarpHash.o"
-	@echo "... RabinKarpHash.i"
-	@echo "... RabinKarpHash.s"
-	@echo "... Sha256Hash.o"
-	@echo "... Sha256Hash.i"
-	@echo "... Sha256Hash.s"
+	@echo "... HashCollection.o"
+	@echo "... HashCollection.i"
+	@echo "... HashCollection.s"
 .PHONY : help
 
 
@@ -315,6 +195,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

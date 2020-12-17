@@ -18,15 +18,19 @@ namespace Research {
 
     template <typename T>
     class IHash {
+    public:
+
+        virtual uint64_t operator()(const T& key) = 0;
+
+        virtual void shuffle() {}
+
+    private:
 
         static constexpr bool IS_ACCEPTED =
             std::is_same<T, Types::String>::value ||
             std::is_same<T, Types::Number>::value;
 
         using Helper = typename std::enable_if<IS_ACCEPTED, int>::type;
-
-        virtual uint64_t operator()(const T& key) = 0;
-
     };
 
     /*------------------------------------------------------------------------*/
@@ -35,11 +39,13 @@ namespace Research {
     class IHashSet {
     public:
 
-        using Type = T;
+        using Key = T;
 
-        static constexpr size_t DEFAULT_SIZE = 3;
+        static constexpr size_t DEFAULT_SIZE = 4;
 
-        IHashSet() : sz(0) { }
+        explicit IHashSet()
+                : sz(0)
+                { }
 
         virtual ~IHashSet() = default;
 
@@ -55,6 +61,12 @@ namespace Research {
         }
 
     protected:
+
+        void setSize(size_t new_size) {
+            sz = new_size;
+        }
+
+    private:
 
         size_t sz;
     };

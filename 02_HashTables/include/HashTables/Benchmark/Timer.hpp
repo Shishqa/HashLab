@@ -6,7 +6,7 @@
 /*============================================================================*/
 namespace Research::Benchmark {
 
-    using Clock     = std::chrono::steady_clock;
+    using Clock     = std::chrono::high_resolution_clock;
     using TimePoint = Clock::time_point;
     using TimeDelta = std::chrono::nanoseconds;
 

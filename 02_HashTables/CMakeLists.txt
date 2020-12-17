@@ -14,6 +14,7 @@ if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
   set(RELEASE_FLAGS " \
     -O3 \
     -Wno-unused-parameter \
+    -Wno-implicit-fallthrough \
   ")
 
   set(DEBUG_FLAGS " \
@@ -41,7 +42,7 @@ if(CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
   if (MSVC)
     add_compile_options(/W3 /WX)
   else()
-    add_compile_options(-W -Wall -Wextra -Wpedantic -Werror -pedantic-errors)
+    add_compile_options(-W -Wall -Wextra -Wpedantic -pedantic-errors)
   endif()
 
   set_property(GLOBAL PROPERTY USE_FOLDERS ON)
@@ -52,35 +53,24 @@ endif()
 
 set(INCROOT ${PROJECT_SOURCE_DIR}/include/HashTables)
 
-add_library(Interface INTERFACE)
+add_library(Interface)
 
 target_include_directories(Interface
-  INTERFACE
+  PUBLIC
     ${INCROOT}
   )
 
 target_sources(Interface
-  INTERFACE
+  PUBLIC
     ${INCROOT}/Interface.hpp
+    ${INCROOT}/Random.hpp
+  PRIVATE
+    src/Random.cpp
   )
 
 target_compile_features(Interface
-  INTERFACE
+  PUBLIC
     cxx_std_17
-  )
-
-#============================================================================#
-
-add_library(HashTables INTERFACE)
-
-target_include_directories(HashTables
-  INTERFACE
-    ${INCROOT}
-  )
-
-target_link_libraries(HashTables
-  INTERFACE
-    OpenAddressing
   )
 
 #============================================================================#
@@ -103,8 +93,12 @@ target_link_libraries(RunBenchmarks
     Benchmark
   )
 
+#============================================================================#
+
+add_subdirectory(modules)
+
 add_subdirectory(src/Hashes)
 add_subdirectory(src/Benchmark)
-add_subdirectory(src/OpenAddressing)
+add_subdirectory(src/HashTables)
 
 #============================================================================#

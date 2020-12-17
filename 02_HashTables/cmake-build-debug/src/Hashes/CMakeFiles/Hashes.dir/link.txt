@@ -1,2 +1,2 @@
-/usr/bin/ar qc libHashes.a  CMakeFiles/Hashes.dir/Md5Hash.cpp.o CMakeFiles/Hashes.dir/Sha256Hash.cpp.o CMakeFiles/Hashes.dir/DumbHash.cpp.o CMakeFiles/Hashes.dir/RabinKarpHash.cpp.o CMakeFiles/Hashes.dir/Murmur3Hash.cpp.o
+/usr/bin/ar qc libHashes.a  CMakeFiles/Hashes.dir/HashCollection.cpp.o
 /usr/bin/ranlib libHashes.a

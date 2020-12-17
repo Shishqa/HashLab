@@ -1,47 +1,32 @@
 [
 {
-  "directory": "/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release",
-  "command": "/usr/bin/c++   -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables/OpenAddressing -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables/Hashes -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables/Benchmark  -O3 -DNDEBUG      -O3     -Wno-unused-parameter      -W -Wall -Wextra -Wpedantic -Werror -pedantic-errors -std=c++17 -o CMakeFiles/RunBenchmarks.dir/src/main.cpp.o -c /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/main.cpp",
-  "file": "/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/main.cpp"
+  "directory": "/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-release",
+  "command": "/usr/bin/c++   -I/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/include/HashTables -I/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/include/HashTables/HashTables -I/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/include/HashTables/HashTables/OpenAddressing -I/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/include/HashTables/HashTables/SeparateChaining -I/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/include/HashTables/HashTables/Cuckoo -I/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/include/HashTables/Benchmark -I/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/include/HashTables/Hashes  -O3 -DNDEBUG      -O3     -Wno-unused-parameter     -Wno-implicit-fallthrough      -W -Wall -Wextra -Wpedantic -pedantic-errors -std=c++17 -o CMakeFiles/RunBenchmarks.dir/src/main.cpp.o -c /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/src/main.cpp",
+  "file": "/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/src/main.cpp"
 },
 {
-  "directory": "/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Hashes",
-  "command": "/usr/bin/c++   -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables/Hashes -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Hashes/. -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables  -O3 -DNDEBUG      -O3     -Wno-unused-parameter      -W -Wall -Wextra -Wpedantic -Werror -pedantic-errors -std=c++17 -o CMakeFiles/Hashes.dir/Md5Hash.cpp.o -c /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Hashes/Md5Hash.cpp",
-  "file": "/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Hashes/Md5Hash.cpp"
+  "directory": "/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-release",
+  "command": "/usr/bin/c++   -I/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/include/HashTables  -O3 -DNDEBUG      -O3     -Wno-unused-parameter     -Wno-implicit-fallthrough      -W -Wall -Wextra -Wpedantic -pedantic-errors -std=c++17 -o CMakeFiles/Interface.dir/src/Random.cpp.o -c /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/src/Random.cpp",
+  "file": "/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/src/Random.cpp"
 },
 {
-  "directory": "/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Hashes",
-  "command": "/usr/bin/c++   -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables/Hashes -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Hashes/. -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables  -O3 -DNDEBUG      -O3     -Wno-unused-parameter      -W -Wall -Wextra -Wpedantic -Werror -pedantic-errors -std=c++17 -o CMakeFiles/Hashes.dir/Sha256Hash.cpp.o -c /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Hashes/Sha256Hash.cpp",
-  "file": "/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Hashes/Sha256Hash.cpp"
+  "directory": "/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-release/modules",
+  "command": "/usr/bin/c++   -I/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/modules/hash-library  -O3 -DNDEBUG      -O3     -Wno-unused-parameter     -Wno-implicit-fallthrough      -W -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles/HashLibrary.dir/hash-library/md5.cpp.o -c /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/modules/hash-library/md5.cpp",
+  "file": "/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/modules/hash-library/md5.cpp"
 },
 {
-  "directory": "/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Hashes",
-  "command": "/usr/bin/c++   -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables/Hashes -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Hashes/. -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables  -O3 -DNDEBUG      -O3     -Wno-unused-parameter      -W -Wall -Wextra -Wpedantic -Werror -pedantic-errors -std=c++17 -o CMakeFiles/Hashes.dir/DumbHash.cpp.o -c /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Hashes/DumbHash.cpp",
-  "file": "/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Hashes/DumbHash.cpp"
+  "directory": "/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-release/modules",
+  "command": "/usr/bin/c++   -I/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/modules/hash-library  -O3 -DNDEBUG      -O3     -Wno-unused-parameter     -Wno-implicit-fallthrough      -W -Wall -Wextra -Wpedantic -pedantic-errors -o CMakeFiles/HashLibrary.dir/hash-library/sha256.cpp.o -c /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/modules/hash-library/sha256.cpp",
+  "file": "/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/modules/hash-library/sha256.cpp"
 },
 {
-  "directory": "/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Hashes",
-  "command": "/usr/bin/c++   -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables/Hashes -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Hashes/. -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables  -O3 -DNDEBUG      -O3     -Wno-unused-parameter      -W -Wall -Wextra -Wpedantic -Werror -pedantic-errors -std=c++17 -o CMakeFiles/Hashes.dir/RabinKarpHash.cpp.o -c /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Hashes/RabinKarpHash.cpp",
-  "file": "/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Hashes/RabinKarpHash.cpp"
+  "directory": "/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-release/src/Hashes",
+  "command": "/usr/bin/c++   -I/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/include/HashTables/Hashes -I/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/src/Hashes/. -I/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/include/HashTables -I/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/modules/hash-library  -O3 -DNDEBUG      -O3     -Wno-unused-parameter     -Wno-implicit-fallthrough      -W -Wall -Wextra -Wpedantic -pedantic-errors -std=c++17 -o CMakeFiles/Hashes.dir/HashCollection.cpp.o -c /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/src/Hashes/HashCollection.cpp",
+  "file": "/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/src/Hashes/HashCollection.cpp"
 },
 {
-  "directory": "/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Hashes",
-  "command": "/usr/bin/c++   -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables/Hashes -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Hashes/. -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables  -O3 -DNDEBUG      -O3     -Wno-unused-parameter      -W -Wall -Wextra -Wpedantic -Werror -pedantic-errors -std=c++17 -o CMakeFiles/Hashes.dir/Murmur3Hash.cpp.o -c /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Hashes/Murmur3Hash.cpp",
-  "file": "/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Hashes/Murmur3Hash.cpp"
-},
-{
-  "directory": "/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark",
-  "command": "/usr/bin/c++   -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables/Benchmark -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Benchmark/. -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables  -O3 -DNDEBUG      -O3     -Wno-unused-parameter      -W -Wall -Wextra -Wpedantic -Werror -pedantic-errors -std=c++17 -o CMakeFiles/Benchmark.dir/Timer.cpp.o -c /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Benchmark/Timer.cpp",
-  "file": "/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Benchmark/Timer.cpp"
-},
-{
-  "directory": "/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark",
-  "command": "/usr/bin/c++   -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables/Benchmark -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Benchmark/. -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables  -O3 -DNDEBUG      -O3     -Wno-unused-parameter      -W -Wall -Wextra -Wpedantic -Werror -pedantic-errors -std=c++17 -o CMakeFiles/Benchmark.dir/Random.cpp.o -c /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Benchmark/Random.cpp",
-  "file": "/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Benchmark/Random.cpp"
-},
-{
-  "directory": "/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark",
-  "command": "/usr/bin/c++   -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables/Benchmark -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Benchmark/. -I/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/include/HashTables  -O3 -DNDEBUG      -O3     -Wno-unused-parameter      -W -Wall -Wextra -Wpedantic -Werror -pedantic-errors -std=c++17 -o CMakeFiles/Benchmark.dir/Benchmark.cpp.o -c /home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Benchmark/Benchmark.cpp",
-  "file": "/home/shishqa/dev/MIPT/2020_3/ALGO/contests/05_Hash-Lab/02_HashTables/src/Benchmark/Benchmark.cpp"
+  "directory": "/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/cmake-build-release/src/Benchmark",
+  "command": "/usr/bin/c++   -I/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/include/HashTables/Benchmark -I/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/src/Benchmark/. -I/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/include/HashTables -I/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/include/HashTables/Hashes  -O3 -DNDEBUG      -O3     -Wno-unused-parameter     -Wno-implicit-fallthrough      -W -Wall -Wextra -Wpedantic -pedantic-errors -std=c++17 -o CMakeFiles/Benchmark.dir/Timer.cpp.o -c /home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/src/Benchmark/Timer.cpp",
+  "file": "/home/shishqa/dev/MIPT/2020_3/Hash-Lab/02_HashTables/src/Benchmark/Timer.cpp"
 }
 ]

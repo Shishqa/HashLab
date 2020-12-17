@@ -9,10 +9,16 @@
 namespace Research::Benchmark {
 
     template <typename HashSet>
-    bool run(const char* filename);
+    bool run(const std::string_view& filename);
+
+    template <template<typename, typename> typename HashSet>
+    void runForAllHashes(const std::string& set_name);
 
     template <typename HashSet>
     TimeDelta run(size_t test_set_size);
+
+    template <typename HashSet>
+    bool test(size_t test_set_size, TimeDelta& delta);
 
 }
 /*============================================================================*/

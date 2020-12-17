@@ -13,15 +13,13 @@ target_sources(Benchmark
   PUBLIC
     ${INCROOT}/Benchmark.hpp
     ${INCROOT}/Benchmark.ipp
-    ${INCROOT}/Random.hpp
     ${INCROOT}/Timer.hpp
   PRIVATE
     Timer.cpp
-    Random.cpp
-    Benchmark.cpp
   )
 
 target_link_libraries(Benchmark
   PUBLIC
     Interface
+    Hashes
   )
